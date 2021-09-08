@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Custom Style */
+body {
+  background-color: thistle;
+}
+header {
+  background-color: blueviolet;
+  /* padding: 30px; */
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  display: inline-block;
+  width: 150px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.link a {
+  float: right;
+  text-decoration: none;
+  color: white;
+  margin: auto 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+}
+h1 {
+  font-size: 50px;
+}
+.image {
+  margin-top: 90px;
+  width: 40%;
+  display: inline-block;
+}
+.para {
+  margin-top: 90px;
+  vertical-align: top;
+  margin-left: 50px;
+  display: inline-block;
+  width: 50%;
+  font-size: 30px;
+}
+.image1 {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  width: 31%;
+  margin: 15px;
+}
+button {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 15px;
+  position: fixed;
+  right: -12px;
+  bottom: -5px;
+}
+.btn { 
+  font-size: 20px;
+  color: white;
+}
