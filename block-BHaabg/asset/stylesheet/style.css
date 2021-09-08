@@ -133,13 +133,15 @@ body {
 }
 header {
   background-color: blueviolet;
-  padding: 30px;
+  /* padding: 30px; */
+  position: fixed;
+  width: 100%;
 }
 .logo {
   display: inline-block;
   width: 150px;
-  margin: auto 0;
   margin-left: 20px;
+  vertical-align: middle;
 }
 .link a {
   float: right;
@@ -154,12 +156,12 @@ h1 {
   font-size: 50px;
 }
 .image {
-  margin: 30px;
+  margin-top: 90px;
   width: 40%;
   display: inline-block;
 }
 .para {
-  margin: 30px;
+  margin-top: 90px;
   vertical-align: top;
   margin-left: 50px;
   display: inline-block;
@@ -180,8 +182,11 @@ button {
   border-radius: 50%;
   float: right;
   margin-right: 15px;
+  position: fixed;
+  right: -12px;
+  bottom: -5px;
 }
-.btn {
+.btn { 
   font-size: 20px;
   color: white;
 }
